@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/example/nfc_mifareclassic/MainActivity.java" />
+    </issue>
+    <issue id="InlinedApi">
+        <ignore path="src/com/example/nfc_mifareclassic/Common.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/MainActivity.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/Test.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/WriteActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/example/nfc_mifareclassic/Common.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/MCReader.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/MainActivity.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/NFC_Mifare_classic.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/ReadActivity.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/Test.java" />
+        <ignore path="src/com/example/nfc_mifareclassic/WriteActivity.java" />
+        <ignore path="src/com/nfc_mifareclassic/api/Common.java" />
+        <ignore path="src/com/nfc_mifareclassic/api/NFC_Mifare_classic.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/com/example/nfc_mifareclassic/MCReader.java" />
+    </issue>
+</lint>
